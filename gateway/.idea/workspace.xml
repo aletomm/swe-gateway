@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c097fcf1-fd69-4f7e-bf97-dc22201d47e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Utilita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Utilita.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../device-samples/simulator-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../device-samples/simulator-java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Gateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Gateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Produttore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Produttore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Traduttore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/Traduttore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/connectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redroundrobin/gateway/connectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/redroundrobin/gateway/TraduttoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/redroundrobin/gateway/TraduttoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Gateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Gateway.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Produttore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Produttore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Traduttore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/Traduttore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/connectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redroundrobin/gateway/connectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/redroundrobin/gateway/TraduttoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/redroundrobin/gateway/TraduttoreTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +176,8 @@
       <workItem from="1582103136593" duration="9293000" />
       <workItem from="1582127754940" duration="3707000" />
       <workItem from="1582188676431" duration="1030000" />
-      <workItem from="1582275126775" duration="8153000" />
+      <workItem from="1582275126775" duration="8308000" />
+      <workItem from="1582309376168" duration="14000" />
     </task>
     <servers />
   </component>
@@ -228,30 +213,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="461" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1582192508377" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582288535119">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582288795786">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582288535119" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582288795786" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1582287015542" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1582111220720" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1582063547341" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582288535117">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582288795784">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582288535117" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582288795784" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1582287015539" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1582111220718" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1582063547334" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582288535116">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582288795783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582288535116" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582288795783" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1582287015535" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1582111220716" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582288535118">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582288795785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582288535118" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582288795785" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1582287015541" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1582111220719" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1582063547336" />
