@@ -1,5 +1,5 @@
-#Dispositivo: Arduino Uno
-##Sensori: 
+# Dispositivo: Arduino Uno
+## Sensori: 
 - Temperatura
 	- Valore del sensore di temperatura
 	- Valore del voltaggio del sensore
