@@ -64,7 +64,7 @@ public class Consumatore {
     }
 
     public static void main(String[] args) {
-        Consumatore test = new Consumatore("TopicDiProva","consumatoreTest", "localhost:29092");
+        Consumatore test = new Consumatore("GatewayDiTest","consumatoreTest", "localhost:29092");
         test.eseguiConsumatore();
     }
 }
