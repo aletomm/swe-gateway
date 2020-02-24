@@ -1,8 +1,13 @@
 package redroundrobin.gateway;
 
+import com.google.gson.Gson;
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.LongSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Properties;
 
 
@@ -71,10 +76,12 @@ public class Produttore {
     public static void main(String args[]) throws Exception {
 
         Produttore test = new Produttore("produttoreTest", "localhost:29092");
-        eseguiProduttore("TopicDiProva","Ciao mondo!", test);
-        eseguiProduttore("TopicDiProva","Ciao mondo2!", test);
+        eseguiProduttore("TopicDiProva","Hola", test);
+        eseguiProduttore("TopicDiProva", "Hola2", test);
         test.chiudiProduttore();
 
     }
 
 }
+
+

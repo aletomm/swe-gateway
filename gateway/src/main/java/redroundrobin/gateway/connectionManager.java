@@ -1,10 +1,13 @@
 package redroundrobin.gateway;
 
+import com.google.gson.Gson;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.jetbrains.annotations.NotNull;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,6 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.apache.commons.lang3.ArrayUtils.toPrimitive;
+import static redroundrobin.gateway.Produttore.eseguiProduttore;
 
 public class connectionManager {
 
@@ -89,7 +93,31 @@ public class connectionManager {
                     System.out.println("Errore: pacchetto corrotto!");
                     continue;
                 }
+                /*
+                String s = null;
+                Gson gson = new Gson();
 
+                try {
+                    //Eseguo uno script in pyton che legge un record del dispositivo 1 contenente i dati di tutti i sensori
+                    Process p = Runtime.getRuntime().exec("python /Users/alessandro/Desktop/readFromArduino.py"); //Va cambiato in path relativo
+
+                    BufferedReader stdInput = new BufferedReader(new InputStreamReader(p.getInputStream()));
+
+                    // leggo l'output del comando
+                    s = stdInput.readLine();
+                    if (s != null) {
+                        Dispositivo arduinoUno = gson.fromJson(s, Dispositivo.class);
+                        //idealmente creo un dispositivo "arduino e poi prendo il valore che cerco
+                    }
+
+                    System.exit(0);
+                }
+                catch (IOException e) {
+                    e.printStackTrace();
+                    System.exit(-1);
+                }
+                */
+                
                 List<Byte> ihatejava = createResponsePacket(Byte.toUnsignedInt(nicePacket.get(0)),
                         Byte.toUnsignedInt(nicePacket.get(2)));
                 Byte[] ihatejavatwice = ihatejava.toArray(new Byte[ihatejava.size()]);

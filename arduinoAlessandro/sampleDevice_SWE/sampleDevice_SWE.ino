@@ -20,46 +20,46 @@ void loop() {
   //  Converto la tensione in temperatura;
   float temperature = (voltage - .5)*100;
 
-  Serial.println("{");
-  Serial.println("  \"id\":\"1\",");
-  Serial.println("  \"sensori\": {");
+  Serial.print("{");
+  Serial.print("\"id\":\"1\",");
+  Serial.print("\"sensori\": {");
   
-    Serial.println("    \"sensore1\": {");
-    Serial.println("      \"id\": \"1\",");
-    Serial.print("      \"value\": \"");
+    Serial.print("\"sensore1\": {");
+    Serial.print("\"id\": \"1\",");
+    Serial.print("\"value\": \"");
     Serial.print(tempSensorVal);
-    Serial.println("\" ");
-    Serial.println("    },");
+    Serial.print("\"");
+    Serial.print("},");
 
-    Serial.println("    \"sensore2\": {");
-    Serial.println("      \"id\": \"2\",");
-    Serial.print("      \"value\": \"");
+    Serial.print("\"sensore2\": {");
+    Serial.print("\"id\": \"2\",");
+    Serial.print("\"value\": \"");
     Serial.print(voltage);
-    Serial.println("\"");
-    Serial.println("    },");
+    Serial.print("\"");
+    Serial.print("},");
 
-    Serial.println("    \"sensore3\": {");
-    Serial.println("      \"id\": \"3\",");
-    Serial.print("      \"value\": \"");
+    Serial.print("\"sensore3\": {");
+    Serial.print("\"id\": \"3\",");
+    Serial.print("\"value\": \"");
     Serial.print(temperature);
-    Serial.println("\" ");
-    Serial.println("    },");
+    Serial.print("\"");
+    Serial.print("},");
 
-    Serial.println("    \"sensore4\": {");
-    Serial.println("      \"id\": \"4\",");
-    Serial.print("      \"value\": \"");
+    Serial.print("\"sensore4\": {");
+    Serial.print("\"id\": \"4\",");
+    Serial.print("\"value\": \"");
     Serial.print(lightSensorVal);
-    Serial.println("\" ");
-    Serial.println("    },");
+    Serial.print("\" ");
+    Serial.print("},");
 
-    Serial.println("    \"sensore5\": {");
-    Serial.println("      \"id\": \"5\",");
-    Serial.print("      \"value\": \"");
+    Serial.print("\"sensore5\": {");
+    Serial.print(" \"id\": \"5\",");
+    Serial.print("\"value\": \"");
     Serial.print(potValue);
-    Serial.println("\" ");
-    Serial.println("    }");
+    Serial.print("\"");
+    Serial.print("}");
     
-  Serial.println("  }");
+  Serial.print("}");
   Serial.println("}");
 
 
@@ -82,6 +82,6 @@ void loop() {
       }else{
         digitalWrite(2, LOW);
        }   
-    delay(500);    
+    delay(200);    
 
 }
