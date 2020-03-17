@@ -11,14 +11,10 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - name: Run sonarcloud gateway
-      run: mvn verify sonar:sonar -f gateway/pom.xml
-    - name: Run sonarcloud gateway
-      run: mvn verify sonar:sonar -f device-samples/simulator-java/pom.xml    
+      run: mvn verify sonar:sonar -f gateway/pom.xml   
     - uses: actions/checkout@v2
     - name: Set up JDK 11
       uses: actions/setup-java@v1
@@ -26,6 +22,4 @@ jobs:
         java-version: 11
     - name: Build package gateway
       run: mvn -B package --file gateway/pom.xml
-    - name: Build package simulator
-      run: mvn -B package --file device-samples/simulator-java/pom.xml 
   
