@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Run sonarcloud
+      run: mvn verify sonar:sonar  
     - uses: actions/checkout@v2
     - name: Set up JDK 11
       uses: actions/setup-java@v1
@@ -23,4 +25,5 @@ jobs:
     - name: Build package gateway
       run: mvn -B package --file gateway/pom.xml
     - name: Build package simulator
-      run: mvn -B package --file device-samples/simulator-java/pom.xml  
+      run: mvn -B package --file device-samples/simulator-java/pom.xml 
+  
