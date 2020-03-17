@@ -18,8 +18,6 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
-    - name: Run sonarcloud gateway
-      run: mvn verify --file gateway/pom.xml sonar:sonar   
     - name: Build package gateway
       run: mvn -B package --file gateway/pom.xml
   
