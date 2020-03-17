@@ -18,6 +18,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@v1.1
     - name: Build package gateway
       run: mvn -B package --file gateway/pom.xml
   
