@@ -25,7 +25,6 @@ public class DeGateway3 {
                 new Sensor(3, 0))
         );
         Device device6 = new Device(6, sensor6);
-
         List<Device> devices = new ArrayList<>(Arrays.asList(device5, device6));
 
         Gateway gateway = new Gateway(InetAddress.getLocalHost(), 6971, "DE-GATEWAY-3", devices,5, 6000);
