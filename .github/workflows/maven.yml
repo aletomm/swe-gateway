@@ -20,5 +20,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
-    - name: Build with Maven
+    - name: Build package gateway
       run: mvn -B package --file gateway/pom.xml
+    - name: Build package simulator
+      run: mvn -B package --file device-samples/simulator-java/pom.xml  
